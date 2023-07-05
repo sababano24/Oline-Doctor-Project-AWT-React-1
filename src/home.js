@@ -1,5 +1,6 @@
-import './css/style.css'
-import './css/bootstrap.min.css'
+import './css/style.css';
+import './css/bootstrap.min.css';
+import about from './img/about.jpg'
 
 function Home() {
     return (
@@ -17,19 +18,11 @@ function Home() {
 
                 <link rel="preconnect" href="https://fonts.gstatic.com"></link>
                 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet"></link>
-
-
                 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet"></link>
                 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet"></link>
-
-
                 <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"></link>
                 <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
-
-
                 <link href="css/bootstrap.min.css" rel="stylesheet"></link>
-
-
                 <link href="css/style.css" rel="stylesheet"></link>
             </head>
 
@@ -122,7 +115,7 @@ function Home() {
                         <div class="row gx-5">
                             <div class="col-lg-5 mb-5 mb-lg-0" style={{ minheight: "500px" }}>
                                 <div class="position-relative h-100">
-                                    <img class="position-absolute w-100 h-100 rounded" src={require("./img/about.jpg").default} style={{ objectFit: "cover" }}></img>
+                                    <img class="position-absolute w-100 h-100 rounded" src={about} style={{ objectFit: "cover" }}></img>
                                 </div>
                             </div>
                             <div class="col-lg-7">

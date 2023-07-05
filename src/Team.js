@@ -1,24 +1,42 @@
-import about from './img/about.jpg'
-function About() {
+import team1 from './img/team-1.jpg'
+import team2 from './img/team-2.jpg'
+import team3 from './img/team-3.jpg'
+
+
+function Team() {
     return (
         <>
 
-            <html>            <head>
-                <meta charSet="utf-8"></meta>
-                <title>MEDINOVA - Hospital Website Template</title>
-                <meta content="width=device-width, initial-scale=1.0" name="viewport"></meta>
-                <meta content="Free HTML Templates" name="keywords"></meta>
-                <meta content="Free HTML Templates" name="description"></meta>
-                <link href="img/favicon.ico" rel="icon"></link>
-                <link rel="preconnect" href="https://fonts.gstatic.com"></link>
-                <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet"></link>
-                <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet"></link>
-                <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet"></link>
-                <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"></link>
-                <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet"></link> <link href="css/bootstrap.min.css" rel="stylesheet"></link>
-                <link href="css/style.css" rel="stylesheet"></link>
-            </head>
+            <html lang="en">
+
+                <head>
+                    <meta charset="utf-8" />
+                    <title>MEDINOVA - Hospital Website Template</title>
+                    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+                    <meta content="Free HTML Templates" name="keywords" />
+                    <meta content="Free HTML Templates" name="description" />
+
+
+                    <link href="img/favicon.ico" rel="icon" />
+
+
+                    <link rel="preconnect" href="https://fonts.gstatic.com" />
+                    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+                    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet" />
+                    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+                    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+                    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+
+                    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+                    <link href="css/style.css" rel="stylesheet" />
+                </head>
+
                 <body>
+
                     <div class="container-fluid py-2 border-bottom d-none d-lg-block">
                         <div class="container">
                             <div class="row">
@@ -51,6 +69,7 @@ function About() {
                             </div>
                         </div>
                     </div>
+
                     <div class="container-fluid sticky-top bg-white shadow-sm mb-5">
                         <div class="container">
                             <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
@@ -63,15 +82,15 @@ function About() {
                                 <div class="collapse navbar-collapse" id="navbarCollapse">
                                     <div class="navbar-nav ms-auto py-0">
                                         <a href="index.html" class="nav-item nav-link">Home</a>
-                                        <a href="about.html" class="nav-item nav-link active">About</a>
+                                        <a href="about.html" class="nav-item nav-link">About</a>
                                         <a href="service.html" class="nav-item nav-link">Service</a>
                                         <a href="price.html" class="nav-item nav-link">Pricing</a>
                                         <div class="nav-item dropdown">
-                                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
                                             <div class="dropdown-menu m-0">
                                                 <a href="blog.html" class="dropdown-item">Blog Grid</a>
                                                 <a href="detail.html" class="dropdown-item">Blog Detail</a>
-                                                <a href="team.html" class="dropdown-item">The Team</a>
+                                                <a href="team.html" class="dropdown-item active">The Team</a>
                                                 <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                                                 <a href="appointment.html" class="dropdown-item">Appointment</a>
                                                 <a href="search.html" class="dropdown-item">Search</a>
@@ -86,74 +105,7 @@ function About() {
 
                     <div class="container-fluid py-5">
                         <div class="container">
-                            <div class="row gx-5">
-                                <div class="col-lg-5 mb-5 mb-lg-0" style={{ minHeight: "500px" }}>
-                                    <div class="position-relative h-100">
-                                        <img class="position-absolute w-100 h-100 rounded" style={{ objectFit: 'cover' }} src={about}></img>
-                                    </div>
-                                </div>
-                                <div class="col-lg-7">
-                                    <div class="mb-4">
-                                        <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">About Us</h5>
-                                        <h1 class="display-4">Best Medical Care For Yourself and Your Family</h1>
-                                    </div>
-                                    <p>Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
-                                    <div class="row g-3 pt-3">
-                                        <div class="col-sm-3 col-6">
-                                            <div class="bg-light text-center rounded-circle py-4">
-                                                <i class="fa fa-3x fa-user-md text-primary mb-3"></i>
-                                                <h6 class="mb-0">Qualified<small class="d-block text-primary">Doctors</small></h6>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-3 col-6">
-                                            <div class="bg-light text-center rounded-circle py-4">
-                                                <i class="fa fa-3x fa-procedures text-primary mb-3"></i>
-                                                <h6 class="mb-0">Emergency<small class="d-block text-primary">Services</small></h6>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-3 col-6">
-                                            <div class="bg-light text-center rounded-circle py-4">
-                                                <i class="fa fa-3x fa-microscope text-primary mb-3"></i>
-                                                <h6 class="mb-0">Accurate<small class="d-block text-primary">Testing</small></h6>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-3 col-6">
-                                            <div class="bg-light text-center rounded-circle py-4">
-                                                <i class="fa fa-3x fa-ambulance text-primary mb-3"></i>
-                                                <h6 class="mb-0">Free<small class="d-block text-primary">Ambulance</small></h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="container-fluid bg-primary my-5 py-5">
-                        <div class="container py-5">
-                            <div class="text-center mx-auto mb-5" style={{ maxWidth: "500px" }}>
-                                <h5 class="d-inline-block text-white text-uppercase border-bottom border-5">Find A Doctor</h5>
-                                <h1 class="display-4 mb-4">Find A Healthcare Professionals</h1>
-                                <h5 class="text-white fw-normal">Duo ipsum erat stet dolor sea ut nonumy tempor. Tempor duo lorem eos sit sed ipsum takimata ipsum sit est. Ipsum ea voluptua ipsum sit justo</h5>
-                            </div>
-                            <div class="mx-auto" style={{ width: "100%", maxWidth: '600px' }}>
-                                <div class="input-group">
-                                    <select class="form-select border-primary w-25" style={{ height: "60px" }}>
-                                        <option selected>Department</option>
-                                        <option value="1">Department 1</option>
-                                        <option value="2">Department 2</option>
-                                        <option value="3">Department 3</option>
-                                    </select>
-                                    <input type="text" class="form-control border-primary w-50" placeholder="Keyword"></input>
-                                    <button class="btn btn-dark border-0 w-25">Search</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="container-fluid py-5">
-                        <div class="container">
-                            <div class="text-center mx-auto mb-5" style={{ maxWidth: "500px" }}>
+                            <div class="text-center mx-auto mb-5" style={{maxWidth: "500px"}}>
                                 <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Our Doctors</h5>
                                 <h1 class="display-4">Qualified Healthcare Professionals</h1>
                             </div>
@@ -161,7 +113,7 @@ function About() {
                                 <div class="team-item">
                                     <div class="row g-0 bg-light rounded overflow-hidden">
                                         <div class="col-12 col-sm-5 h-100">
-                                            <img class="img-fluid h-100" src={require("./img/team-1.jpg").default} style={{ objectFit: "cover" }}></img>
+                                            <img class="img-fluid h-100" src={team1} style={{objectFit: "cover"}} />
                                         </div>
                                         <div class="col-12 col-sm-7 h-100 d-flex flex-column">
                                             <div class="mt-auto p-4">
@@ -180,7 +132,7 @@ function About() {
                                 <div class="team-item">
                                     <div class="row g-0 bg-light rounded overflow-hidden">
                                         <div class="col-12 col-sm-5 h-100">
-                                            <img class="img-fluid h-100" src={require("./img/team-2.jpg").default} style={{ objectFit: "cover" }}></img>
+                                            <img class="img-fluid h-100" src={team2} style={{objectFit: "cover"}} />
                                         </div>
                                         <div class="col-12 col-sm-7 h-100 d-flex flex-column">
                                             <div class="mt-auto p-4">
@@ -199,7 +151,7 @@ function About() {
                                 <div class="team-item">
                                     <div class="row g-0 bg-light rounded overflow-hidden">
                                         <div class="col-12 col-sm-5 h-100">
-                                            <img class="img-fluid h-100" src={require("./img/team-3.jpg").default} style={{ objectFit: "cover" }}></img>
+                                            <img class="img-fluid h-100" src={team3} style={{objectFit: "cover"}} />
                                         </div>
                                         <div class="col-12 col-sm-7 h-100 d-flex flex-column">
                                             <div class="mt-auto p-4">
@@ -218,6 +170,7 @@ function About() {
                             </div>
                         </div>
                     </div>
+
                     <div class="container-fluid bg-dark text-light mt-5 py-5">
                         <div class="container py-5">
                             <div class="row g-5">
@@ -254,7 +207,7 @@ function About() {
                                     <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Newsletter</h4>
                                     <form action="">
                                         <div class="input-group">
-                                            <input type="text" class="form-control p-3 border-0" placeholder="Your Email Address"></input>
+                                            <input type="text" class="form-control p-3 border-0" placeholder="Your Email Address" />
                                             <button class="btn btn-primary">Sign Up</button>
                                         </div>
                                     </form>
@@ -283,6 +236,7 @@ function About() {
                     </div>
 
                     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
                     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
                     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
                     <script src="lib/easing/easing.min.js"></script>
@@ -291,10 +245,13 @@ function About() {
                     <script src="lib/tempusdominus/js/moment.min.js"></script>
                     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
                     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+
                     <script src="js/main.js"></script>
                 </body>
+
             </html>
         </>
     )
 }
-export default About;
+export default Team;
