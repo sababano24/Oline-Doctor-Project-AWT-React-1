@@ -38,7 +38,7 @@ root.render(
         <Route path="contact" element={<Contect />} />
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<Signup />} />
-        
+
       </Routes>
     </BrowserRouter>
 

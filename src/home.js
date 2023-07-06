@@ -16,17 +16,17 @@ function Home() {
                 <a className="text-decoration-none text-body px-3" href=""><i className="bi bi-envelope me-2"></i>info@example.com</a>
 
                 <Link to="blog" >Blog Grid</Link>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;
                 <Link to='blogdeatil' >Blog Detail</Link>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;
                 <Link to="team" >Team</Link>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;
                 <Link to="testimonial" >Testimonial</Link>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;
                 <Link to="appointment" >Appointment</Link>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;
                 <Link to="search">Search</Link>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;
                 <Link to="signup">Signup</Link>
 
             </div>
